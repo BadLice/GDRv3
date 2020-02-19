@@ -1,0 +1,86 @@
+<!-- ATTRIBUTI -->
+<xsl:attribute-set name="root">
+	<xsl:attribute name="font-family">Arial, Helvetica, sans-serif</xsl:attribute>
+	<xsl:attribute name="font-size">12pt</xsl:attribute>
+	<xsl:attribute name="text-align">left</xsl:attribute>
+	<xsl:attribute name="line-height">5mm</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="table">
+	<!-- not implemented yet -->
+</xsl:attribute-set><xsl:attribute-set name="module-header">
+	<xsl:attribute name="background-color">#0fa148</xsl:attribute>
+	<xsl:attribute name="color">#fff</xsl:attribute>
+	<xsl:attribute name="font-size">14pt</xsl:attribute>
+	<xsl:attribute name="padding-bottom">1mm</xsl:attribute>
+	<xsl:attribute name="padding-top">2mm</xsl:attribute>
+	<xsl:attribute name="number-columns-spanned">2</xsl:attribute>
+	<xsl:attribute name="font-weight">bold</xsl:attribute>
+	<xsl:attribute name="text-align">center</xsl:attribute>
+	<xsl:attribute name="border-left">1px solid #959595</xsl:attribute>
+	<xsl:attribute name="border-right">1px solid #959595</xsl:attribute>
+	<xsl:attribute name="border-top">1px solid #959595</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="fieldset-header" use-attribute-sets="module-header">
+	<xsl:attribute name="background-color">#fff</xsl:attribute>
+	<xsl:attribute name="font-size">12pt</xsl:attribute>
+	<xsl:attribute name="border-bottom">2px solid #008744</xsl:attribute>
+	<xsl:attribute name="border-top">0px</xsl:attribute>
+	<xsl:attribute name="text-align">left</xsl:attribute>
+	<xsl:attribute name="padding-left">2mm</xsl:attribute>
+	<xsl:attribute name="color">#008744</xsl:attribute>
+	<xsl:attribute name="border-top">1px solid #959595</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="sub-module-header1">
+	<xsl:attribute name="color">#590185</xsl:attribute>
+	<xsl:attribute name="font-size">12pt</xsl:attribute>
+	<!-- <xsl:attribute name="padding-top">1mm</xsl:attribute> -->
+	<xsl:attribute name="padding-left">1mm</xsl:attribute>
+	<xsl:attribute name="border-bottom">2px solid #590185</xsl:attribute>
+	<xsl:attribute name="number-columns-spanned">2</xsl:attribute>
+	<xsl:attribute name="font-weight">bold</xsl:attribute>
+	<xsl:attribute name="text-align-last">left</xsl:attribute>
+	<xsl:attribute name="line-height">20pt</xsl:attribute>
+	<xsl:attribute name="border-left">1px solid #959595</xsl:attribute>
+	<xsl:attribute name="border-right">1px solid #959595</xsl:attribute>
+	<xsl:attribute name="border-top">1px solid #959595</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="sub-module-header2" use-attribute-sets="sub-module-header1">
+	<xsl:attribute name="border-bottom">2px solid #990000</xsl:attribute>
+	<xsl:attribute name="color">#990000</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="sub-module-header3" use-attribute-sets="sub-module-header2">
+	<xsl:attribute name="border-bottom">2px solid #004040</xsl:attribute>
+	<xsl:attribute name="color">#004040</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="sub-module-header4" use-attribute-sets="sub-module-header3">
+	<xsl:attribute name="border-bottom">2px solid #000000</xsl:attribute>
+	<xsl:attribute name="color">#000000</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="big-number">
+	<xsl:attribute name="color">#404040</xsl:attribute>
+	<xsl:attribute name="font-size">14pt</xsl:attribute>
+	<xsl:attribute name="vertical-align">top</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="main-column">
+	<xsl:attribute name="background-color">#F2F2F2</xsl:attribute>
+	<xsl:attribute name="font-size">10pt</xsl:attribute>
+	<xsl:attribute name="padding">1.5mm</xsl:attribute>
+	<xsl:attribute name="font-weight">bold</xsl:attribute>
+	<xsl:attribute name="font-style">normal</xsl:attribute>
+	<xsl:attribute name="text-align">right</xsl:attribute>
+	<xsl:attribute name="border-left">1px solid #959595</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="label-column">
+	<xsl:attribute name="background-color">#F2F2F2</xsl:attribute>
+	<xsl:attribute name="font-size">10pt</xsl:attribute>
+	<xsl:attribute name="padding">1.5mm</xsl:attribute>
+	<xsl:attribute name="font-weight">bold</xsl:attribute>
+	<xsl:attribute name="font-style">normal</xsl:attribute>
+	<xsl:attribute name="text-align">left</xsl:attribute>
+	<xsl:attribute name="number-columns-spanned">2</xsl:attribute>
+	<xsl:attribute name="border-right">1px solid #959595</xsl:attribute>
+	<xsl:attribute name="border-left">1px solid #959595</xsl:attribute>
+</xsl:attribute-set><xsl:attribute-set name="secondary-column">
+	<xsl:attribute name="background-color">#fff</xsl:attribute>
+	<xsl:attribute name="font-size">9pt</xsl:attribute>
+	<xsl:attribute name="padding">1.5mm</xsl:attribute>
+	<xsl:attribute name="font-style">italic</xsl:attribute>
+	<xsl:attribute name="border-right">1px solid #959595</xsl:attribute>
+</xsl:attribute-set> <!-- FINE ATTRIBUTI -->
+
+<!-- TABELLA -->
+<fo:table-column column-width="75mm" /><fo:table-column column-width="95mm" /> <!-- FINE TABELLA -->
+
+<!-- SOTTOMODULI -->
+<!-- FINE SOTTOMODULI -->
