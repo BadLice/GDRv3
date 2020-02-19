@@ -1,0 +1,85 @@
+<!-- ATTRIBUTI -->
+	<xsl:attribute-set name="root">
+		<xsl:attribute name="font-family">Arial, Helvetica, sans-serif</xsl:attribute>
+		<xsl:attribute name="font-size">12pt</xsl:attribute>
+		<xsl:attribute name="text-align">left</xsl:attribute>
+		<xsl:attribute name="line-height">5mm</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="table">
+		<!-- Non Usato per ora -->
+	</xsl:attribute-set>
+	
+	<xsl:attribute-set name="big-number">
+		<xsl:attribute name="color">#abcced</xsl:attribute>
+		<xsl:attribute name="font-size">26pt</xsl:attribute>
+	</xsl:attribute-set>
+	
+	<xsl:attribute-set name="label-column">
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="module-header">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="color">#000000</xsl:attribute>
+		<xsl:attribute name="font-size">14pt</xsl:attribute>
+		<xsl:attribute name="padding">2mm</xsl:attribute>
+		<xsl:attribute name="border-bottom">2px solid #fff</xsl:attribute>
+		<xsl:attribute name="number-columns-spanned">2</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="text-align">center</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="fieldset-header" use-attribute-sets="module-header">
+		<xsl:attribute name="background-color">#004040</xsl:attribute>
+		<xsl:attribute name="font-size">13pt</xsl:attribute>
+		<xsl:attribute name="border-bottom">1px solid #fff</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="sub-module-header1">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="color">#000000</xsl:attribute>
+		<xsl:attribute name="font-size">13pt</xsl:attribute>
+		<xsl:attribute name="padding">2mm</xsl:attribute>
+		<xsl:attribute name="border-bottom">2px solid #fff</xsl:attribute>
+		<xsl:attribute name="number-columns-spanned">2</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="text-align">center</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="sub-module-header2" use-attribute-sets="sub-module-header1">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="font-size">13pt</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="sub-module-header3" use-attribute-sets="sub-module-header2">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="font-size">12pt</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="sub-module-header4" use-attribute-sets="sub-module-header3">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="font-size">12pt</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="main-column">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="font-size">10pt</xsl:attribute>
+		<xsl:attribute name="padding">0.5mm</xsl:attribute>
+		<xsl:attribute name="border-style">dotted</xsl:attribute>
+	</xsl:attribute-set>
+
+	<xsl:attribute-set name="secondary-column">
+		<xsl:attribute name="background-color">#FFFFFF</xsl:attribute>
+		<xsl:attribute name="font-size">9pt</xsl:attribute>
+		<xsl:attribute name="padding">0.5mm</xsl:attribute>
+		<xsl:attribute name="border-style">dotted</xsl:attribute>
+	</xsl:attribute-set>
+<!-- FINE ATTRIBUTI -->
+
+<!-- TABELLA -->
+						<fo:table-column column-width="85mm"/>
+						<fo:table-column column-width="85mm"/>
+<!-- FINE TABELLA -->
+
+<!-- SOTTOMODULI -->
+<!-- FINE SOTTOMODULI -->
