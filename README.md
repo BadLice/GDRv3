@@ -1,8 +1,11 @@
 # GDRv3
 Generatore dati riassuntivi v3 - Programma per generare il file xsl del pdf riassuntivo in modo automatico partendo dallo zip del template di BOL
 
+# INSTALLAZIONE
+Scaricare ed estrarre l'ultima versione del programma (GDRv3.1-bin.zip) dal seguente link https://github.com/BadLice/GDRv3/releases 
+
 # AVVIO
-per avviare il programma è necessario aver installato java v12 o superiore.
+Per avviare il programma è necessario aver installato java v12 o superiore.
 
 # FUNZIONAMENTO
 1. estrarre lo zip del template di cui si vuole generare il pdf riassuntivo
