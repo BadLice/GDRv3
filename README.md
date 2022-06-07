@@ -14,4 +14,5 @@ per avviare il programma è necessario aver installato java v12 o superiore.
 7. il file xsl generato conterrà tutti gli item di tutti i moduli selezionati (sottomoduli compresi), indipendentemente dal fatto che siano nascosti o meno a template; è dunque spesso necessario sistemare i dettagli nel file (ad esempio rimuovendo campi superflui oppure modificando le etichette dei DN)
 
 # STILE GRAFICO
-È possibile modificare lo stile grafico del pdf modificando i file Classico.xml e Quadratoni.xml contenuti nella cartella settings, modificando soltanto i valori degli attributi dello stile (ad esempio color o font-size); ATTENZIONE: non bisogna eliminare gli attribute-set o crearne di nuovi.
+È possibile modificare lo stile grafico del pdf modificando i file Classico.xml e Quadratoni.xml contenuti nella cartella settings, modificando soltanto i valori degli attributi dello stile (ad esempio color o font-size);
+ATTENZIONE: non bisogna eliminare gli attribute-set o crearne di nuovi.
